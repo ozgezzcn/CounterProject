@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div class="container">
+     <h1><span id="minute">00</span>:<span id="second">00</span></h1>
+     <form>
+         <label>
+             Minute
+             <input id="selected-minute" type="number" min="0" max="59" value="00" />
+         </label>
+
+        <label>
+            Second
+            <input id="selected-second" type="number" min="0" max="59" value="00" />
+        </label>
+     </form>
+     <button id="start">Start</button>
+     <button id="reset">Reset</button>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
